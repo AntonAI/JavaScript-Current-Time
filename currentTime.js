@@ -1,4 +1,4 @@
-// Returns current time in HH:MM:SS AM/PM format (with an optional offset in seconds)
+// Returns current time in HH:MM:SS am/pm format (with an optional offset in seconds)
  
 var currentTime = function(offset) {
 	var d = new Date();
