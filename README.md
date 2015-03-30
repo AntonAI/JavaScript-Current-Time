@@ -8,4 +8,4 @@ Copy 'currentTime' function directly into your JavaScript file(s) where usage is
 ```bash
 var time = currentTime(offset);
 ```
-Function returns the current time in HH:MM:SS AM/PM format. Specify an optional offset in seconds to subtract from current date/time.
+Function returns the current time in HH:MM:SS am/pm format. Specify an optional offset in seconds to subtract from the current time.
