@@ -2,7 +2,7 @@
 A JavaScript function that returns the current time with an optional offset.
 
 ## Installation
-Copy currentTime function directly into your JavaScript file(s) where usage is required.
+Copy 'currentTime' function directly into your JavaScript file(s) where usage is required.
 
 ## Usage
 ```bash
