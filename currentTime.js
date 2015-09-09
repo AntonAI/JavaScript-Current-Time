@@ -10,10 +10,14 @@ var currentTime = function(offset) {
 	}
 
 	var hh = d.getHours();
-	if (hh > 12) {
-		hh = hh - 12;
-		amPM = 'pm';
-	}
+	if (hh == 12) {
+        amPM = 'pm';
+    } else if (hh > 12 && hh < 24) {
+        hh = hh - 12;
+        amPM = 'pm';
+    } else if (hh == 24) {
+        hh = hh - 12;
+    }
 
 	var mm = d.getMinutes();
 	if (mm < 10) mm = '0' + mm;
